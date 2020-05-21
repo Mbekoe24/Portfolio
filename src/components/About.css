@@ -88,6 +88,9 @@
   border: 1px solid black;
   border-radius: 20px;
 }
+.resume-link :hover {
+  cursor: pointer;
+}
 .about-text {
   color: white;
   line-height: 40px;
