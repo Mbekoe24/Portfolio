@@ -1,0 +1,125 @@
+.project-container {
+  display: grid;
+  height: 552px;
+  width: 402px;
+  border-radius: 15px;
+  background: #fff;
+  padding: 20px 10px;
+
+  grid-template-rows: auto;
+
+  grid-gap: 3%;
+  grid-template-columns: auto;
+  align-items: center;
+  margin: 10px;
+
+  transition: 250ms all;
+  padding: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 60px;
+  margin-left: 80px;
+}
+
+.left-card {
+  justify-self: start;
+}
+img {
+  width: 100%;
+}
+.inner-image {
+  position: absolute;
+
+  width: 76%;
+  height: 80%;
+  top: 6.25%;
+  left: 12%;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  scroll-behavior: smooth;
+}
+.mockup {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+.project-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-template-rows: 1fr; */
+}
+.project:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
+.mac-image {
+  /* width: 404px;
+  height: 232px; */
+  justify-self: center;
+  /* box-shadow: 10px 10px 10px lightgray; */
+}
+
+.project-title {
+  font-size: 24px;
+  grid-row: 2 / span 1;
+  justify-self: center;
+  font-weight: 600;
+}
+.project-section {
+  background-color: rgba(186, 60, 175, 0.865);
+}
+.project-section-content {
+  padding: 50px 0 30px;
+}
+
+.chip {
+  align-items: center;
+  background: #f0f1f4;
+  border-radius: 5rem;
+  color: #667189;
+  display: inline-flex;
+  display: -ms-inline-flexbox;
+  -ms-flex-align: center;
+  font-size: 90%;
+  height: 1.2rem;
+  line-height: 0.8rem;
+  margin: 0.1rem;
+  max-width: 100%;
+  padding: 0.2rem 0.4rem;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.footer-section {
+  padding-bottom: 20px;
+}
+* {
+  box-sizing: inherit;
+}
+.view-link {
+  color: #fff;
+}
+.view-button {
+  /* border: none;
+  background-color: #fff; */
+  border: 1px solid rgba(186, 60, 175, 0.865);
+  background-color: rgba(186, 60, 175, 0.865);
+  /* color: #fff; */
+  margin: 5px;
+  border-radius: 10px;
+}
+.project-details {
+  /* color: #808080; */
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: rgb(128, 128, 128);
+
+  font-size: 16px;
+  height: 72px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+body {
+  font-family: Poppins, sans-serif;
+}

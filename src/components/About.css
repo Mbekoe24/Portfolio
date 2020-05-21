@@ -1,0 +1,99 @@
+.section-title {
+  padding: 75px;
+  margin-bottom: 15px;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Poppins, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+.about-section {
+  background-color: rgba(186, 60, 175, 0.865);
+}
+.about-section-content {
+  padding: 150px 0 90px;
+}
+.profile-badge {
+  width: 374px;
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 15px;
+  height: 655px;
+}
+.card-image {
+  background: #963cd7;
+  display: flex;
+  border-radius: 15px;
+  justify-content: center;
+}
+.card-avatar {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/Profile4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  margin-bottom: -75px;
+  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2),
+    0 40px 77px 0 rgba(0, 0, 0, 0.22);
+}
+.card-content {
+  margin-top: 210px;
+}
+.card-title {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  color: #000;
+  font-size: 1.6rem;
+}
+.card-body {
+  box-sizing: border-box;
+  color: rgb(80, 89, 109);
+  font-size: 18px;
+  font-family: Poppins, sans-serif;
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+.card-body-text {
+  text-align: center;
+}
+
+.card-subtitle {
+  font-family: Poppins, sans-serif;
+  color: #50596d;
+  font-size: 22px;
+}
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-around;
+  width: 374px;
+  height: 94px;
+  margin-top: 466px;
+}
+.icon {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 20px;
+}
+.resume-link button {
+  color: purple;
+  width: 100px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.about-text {
+  color: white;
+  line-height: 40px;
+  margin-right: 100px;
+  font-family: Poppins, sans-serif;
+  font-size: 22px;
+}
+.about-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
