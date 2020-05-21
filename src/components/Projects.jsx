@@ -101,16 +101,17 @@ export default function Projects() {
           </div>
 
           <div className="project-border-content">
-            <div className="project-title">Poke App</div>
+            <div className="project-title">Poké App</div>
 
             <div className="project-info">
               <p className="project-details">
-                Coded and designed Pokémon Trivia game using JavaScript, HTML,
-                CSS PokeAPI.
+                Retrieved data from the PokéAPi to create Pokémon Trivia. A
+                multiple choice game that requires you to figure out Who's that
+                Pokémon?
               </p>
               <p className="project-languages">
-                <span className="chip"> HTML</span>
                 <span className="chip"> Javascript</span>
+                <span className="chip"> HTML</span>
                 <span className="chip"> CSS</span>
               </p>
               <div className="footer-section">
@@ -138,8 +139,8 @@ export default function Projects() {
 
             <div className="project-info">
               <p className="project-details">
-                Retrieved API information to construct NBA Database. Leveraged
-                React.JS,
+                Retrieved API information to construct NBA Database. Which
+                displays players bio's as well as stats for the 2017-18 season.
               </p>
               <p className="project-languages">
                 <span className="chip"> React</span>
@@ -211,12 +212,12 @@ export default function Projects() {
           </div>
 
           <div className="project-border-content">
-            <div className="project-title">Weather App</div>
+            <div className="project-title">Temperature App</div>
 
             <div className="project-info">
               <p className="project-details">
-                Collaborated with UX Design team to convert hi-fidelity
-                prototype into full-stack website for local Brooklyn eatery.
+                Built a temperature app that converts fahrenheit and celsius
+                temperatures while rendering different background images.
               </p>
               <p className="project-languages">
                 <span className="chip"> HTML</span>
@@ -236,6 +237,9 @@ export default function Projects() {
             </div>
           </div>
         </div>
+
+
+        
       </div>
     </div>
   );

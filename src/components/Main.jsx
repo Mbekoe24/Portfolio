@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "./Header";
 import About from "./About";
 import Projects from "./Projects";
-import Contact from "./Contact";
+import Footer from "./Footer";
 export default class Main extends Component {
   render() {
     return (
@@ -10,7 +10,7 @@ export default class Main extends Component {
         <Header />
         <About />
         <Projects />
-        <Contact />
+        <Footer />
       </div>
     );
   }

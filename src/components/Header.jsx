@@ -6,8 +6,12 @@ function header() {
     <div className="parallax">
       <div className="header-container">
         <header>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
+          <a className="about" href="#about">
+            About
+          </a>
+          <a className="project" href="#projects">
+            Projects
+          </a>
         </header>
       </div>
       <div className="grid-container">

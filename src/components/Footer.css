@@ -1,0 +1,53 @@
+footer {
+  height: 30vh;
+  background: #353839;
+}
+.github-icon {
+  margin-right: -30px;
+  width: 50px;
+  height: 50px;
+}
+.linkedin-icon {
+  width: 50px;
+  height: 50px;
+}
+.heart {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.netlify-icon {
+  width: 20px;
+  height: 20px;
+}
+.copyright {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.react-icon {
+  width: 20px;
+  height: 20px;
+}
+.caption-span {
+  margin-left: 10px;
+}
+.footer-caption {
+  letter-spacing: 2px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  font-family: Poppins;
+}
+.image-row {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  flex-flow: row nowrap;
+  /* justify-content: center; */
+  /* align-items: center; */
+}

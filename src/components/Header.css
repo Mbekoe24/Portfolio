@@ -79,3 +79,8 @@ a {
   font-size: 48px;
   color: white;
 }
+.about,
+.project {
+  font-family: Poppins;
+  color: white;
+}
