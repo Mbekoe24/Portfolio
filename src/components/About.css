@@ -8,7 +8,7 @@
   text-transform: uppercase;
 }
 .about-section {
-  background-color: rgba(186, 60, 175, 0.865);
+  background: linear-gradient(to right, #304352, #d7d2cc);
 }
 .about-section-content {
   padding: 150px 0 90px;
@@ -21,7 +21,7 @@
   height: 655px;
 }
 .card-image {
-  background: #963cd7;
+  background: #4d5961;
   display: flex;
   border-radius: 15px;
   justify-content: center;
@@ -79,7 +79,7 @@
   margin-bottom: 20px;
 }
 .resume-link button {
-  color: purple;
+  color: #829aac;
   width: 100px;
   height: 35px;
   font-family: Poppins;

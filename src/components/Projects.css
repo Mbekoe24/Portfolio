@@ -68,7 +68,7 @@ img {
   font-weight: 600;
 }
 .project-section {
-  background-color: rgba(186, 60, 175, 0.865);
+  background: linear-gradient(to right, #304352, #d7d2cc);
 }
 .project-section-content {
   padding: 50px 0 30px;
