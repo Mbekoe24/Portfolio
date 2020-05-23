@@ -15,7 +15,7 @@ function header() {
         </header>
       </div>
       <div className="grid-container">
-        <h1 className="my-name">Michael Bekoe</h1>
+        <h1 className="my-name ">Michael Bekoe</h1>
         <div className="info-container">
           <div className="sub-titles">
             <p className="position-name">Web Developer</p>

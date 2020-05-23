@@ -48,13 +48,16 @@ export default function About() {
             <div className="about-text">
               <p>
                 I am a multidisciplinary Software Engineer and Visual Designer
-                who loves designing vibrant websites and applications. As a
-                lifelong learner and passionate tech-enthusiast, I am constantly
-                searching for new trends in the industry in order to create
-                cutting edge products. I seek the opportunity to leverage my
-                creative and analytical skills to create great products with
+                who loves designing vibrant websites and applications.
+              </p>
+              <p>
+                As a lifelong learner and passionate tech-enthusiast, I am
+                constantly searching for new trends in the industry in order to
+                create cutting edge products. I seek the opportunity to leverage
+                my creative and analytical skills to create great products with
                 real users in mind.
               </p>
+
               <p>
                 I have expertise in translating UI/UX design wireframes with
                 actual code to visual elements. I focus much on providing the
