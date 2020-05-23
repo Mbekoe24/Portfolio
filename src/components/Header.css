@@ -100,7 +100,7 @@ a {
   .parallax {
     height: 500px;
     background-size: cover;
-    background-position: center;
+    background-position: center; 
   }
  
   header {
