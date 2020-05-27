@@ -91,4 +91,7 @@ footer {
   .netlify-icon {
     display: inline;
   }
+  p {
+    margin-bottom: 0px;
+  }
 }
