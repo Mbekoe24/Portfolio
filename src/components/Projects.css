@@ -17,7 +17,7 @@
   padding: 20px;
   padding-bottom: 30px;
   margin-bottom: 60px;
-  margin-left: 80px;
+  margin-left: 135px;
 }
 
 .left-card {
@@ -101,16 +101,14 @@ img {
   color: #fff;
 }
 .view-button {
-  /* border: none;
-  background-color: #fff; */
   border: 1px solid rgba(186, 60, 175, 0.865);
   background-color: rgba(186, 60, 175, 0.865);
-  /* color: #fff; */
+
   margin: 5px;
   border-radius: 10px;
 }
 .project-details {
-  /* color: #808080; */
+ 
   margin-bottom: 20px;
   font-weight: 700;
   color: rgb(128, 128, 128);
