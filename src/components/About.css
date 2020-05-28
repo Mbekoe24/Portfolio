@@ -125,7 +125,7 @@
   }
   .about-text {
     font-size: 16px;
-    margin-right: 0px;
+    margin-right: 13px;
     font-weight: 700;
     display: block;
   }
@@ -135,12 +135,17 @@
   .profile-badge {
     margin-left: 20px;
   }
+
+  .about-text {
+    margin-right: 15px;
+  }
 }
 /* iphone 6, 6s, 7, 8 */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
   .about-grid-container {
     display: unset;
   }
+
   .resume-link button {
     width: 80px;
     font-size: 16px;
@@ -158,7 +163,7 @@
   }
   .about-text {
     font-size: 16px;
-    margin-right: 0px;
+    margin-right: 15px;
     font-weight: 700;
     display: block;
   }

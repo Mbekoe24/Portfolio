@@ -46,8 +46,6 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  /* grid-template-columns: repeat(2, 1fr); */
-  /* grid-template-rows: 1fr; */
 }
 .project:hover {
   transform: scale(1.02);
@@ -55,10 +53,7 @@ img {
 }
 
 .mac-image {
-  /* width: 404px;
-  height: 232px; */
   justify-self: center;
-  /* box-shadow: 10px 10px 10px lightgray; */
 }
 
 .project-title {
@@ -108,7 +103,6 @@ img {
   border-radius: 10px;
 }
 .project-details {
- 
   margin-bottom: 20px;
   font-weight: 700;
   color: rgb(128, 128, 128);
