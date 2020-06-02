@@ -103,10 +103,39 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
-/* iphone x */
+/* iPhone xs */
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .about-grid-container {
     display: unset;
+  }
+  .resume-link button {
+    width: 80px;
+    font-size: 16px;
+  }
+  .card-footer {
+    width: 350px;
+  }
+  .about-section-content {
+    margin-left: 12px;
+  }
+  .profile-badge {
+    margin-left: 0;
+    width: 350px;
+    margin-bottom: 30px;
+  }
+  .about-text {
+    font-size: 16px;
+    margin-right: 13px;
+    font-weight: 700;
+    display: block;
+  }
+}
+
+/* iphone x max */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  .about-grid-container {
+    display: unset;
+    grid-template-columns: 1fr;
   }
   .resume-link button {
     width: 80px;

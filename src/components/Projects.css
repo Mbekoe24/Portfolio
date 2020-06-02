@@ -147,10 +147,6 @@ body {
   .project-section {
     display: flex;
     flex-direction: column;
-    /* grid-template-columns: none;
-    grid-template-rows: none;
-    grid-template-columns: none;
-    grid-template-rows: unset; */
   }
   .project-languages {
     padding-top: 30px;
@@ -165,5 +161,26 @@ body {
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .project-container {
     margin-left: 40px;
+  }
+}
+/* iphone xmax */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  .project-container {
+    margin-left: 20px;
+    height: 437px;
+    width: 296px;
+    margin-bottom: 20px;
+  }
+  .project-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-languages {
+    padding-top: 30px;
+  }
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
   }
 }

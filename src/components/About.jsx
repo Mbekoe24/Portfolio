@@ -18,7 +18,9 @@ export default function About() {
                 <div className="card-avatar">
                   <div className="card-content">
                     <div className="card-header">
-                      <h2 className="card-title">Michael Bekoe</h2>
+                      <h2 className="card-title">
+                        Michael Bekoe
+                      </h2>
                     </div>
                     <div className="card-subtitle">
                       Jr. Front-End Engineer at General Assembly
@@ -59,10 +61,10 @@ export default function About() {
               </p>
 
               <p>
-                I have expertise in translating UI/UX design wireframes with
-                actual code to visual elements. I focus much on providing the
-                best user experience on any device like mobile, desktop, tv,
-                etc.
+                I have direct experience converting hi-fidelity prototypes into
+                full-stack applications and websites that priortize eloquent
+                visual design. I focus much on providing the best user
+                experience on any device like mobile, desktop, tv, etc.
               </p>
               <p>
                 I have a passion for Web Development, Big Data, Vibrant Designs,
@@ -73,8 +75,6 @@ export default function About() {
             </div>
           </div>
         </section>
-
-        {/* <div className="about-section-content"></div> */}
       </div>
     </div>
   );

@@ -87,7 +87,6 @@ a {
   color: #000000;
 }
 
-/* iphone x */
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .grid-container {
     display: flex;
@@ -122,6 +121,44 @@ a {
     font-size: 18px;
   }
 }
+/* iphone x max */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  .grid-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sub-titles {
+    display: unset;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  header {
+    display: none;
+  }
+
+  .parallax {
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/coding.jpg);
+    background-size: contain;
+    background-position: unset;
+    object-fit: contain;
+  }
+  .my-name {
+    margin-bottom: 20px;
+    font-size: 34px;
+    color: white;
+  }
+  .position-name {
+    font-size: 18px;
+  }
+}
+
+
+
 /* iphone 6, 6s, 7, 8 */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
   .parallax {
