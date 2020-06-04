@@ -11,7 +11,7 @@ export default function Footer() {
     <div>
       <div className="footer-container">
         <footer>
-          <section>
+          <section className="footer-section-container">
             <div className="image-row">
               <div className="social-medias">
                 <a href="https://github.com/Mbekoe24">
