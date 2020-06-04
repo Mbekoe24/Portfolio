@@ -103,8 +103,8 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
-/* iPhone xs */
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+@media (min-width: 375px) {
   .about-grid-container {
     display: unset;
   }
@@ -119,7 +119,7 @@
     margin-left: 12px;
   }
   .profile-badge {
-    margin-left: 0;
+    margin: 0 auto;
     width: 350px;
     margin-bottom: 30px;
   }
@@ -131,69 +131,25 @@
   }
 }
 
-/* iphone x max */
-@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
-  .about-grid-container {
-    display: unset;
-    grid-template-columns: 1fr;
-  }
-  .resume-link button {
-    width: 80px;
-    font-size: 16px;
-  }
-  .card-footer {
-    width: 350px;
-  }
-  .about-section-content {
-    margin-left: 12px;
-  }
+@media (min-width: 1000px) {
   .profile-badge {
-    margin-left: 0;
-    width: 350px;
     margin-bottom: 30px;
-  }
-  .about-text {
-    font-size: 16px;
-    margin-right: 13px;
-    font-weight: 700;
-    display: block;
-  }
-}
-/* iPhone 6,7, 8 plus */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
-  .profile-badge {
-    margin-left: 20px;
+    width: 374px;
+    margin-left: 70px;
+    border-radius: 15px;
+    height: 655px;
   }
 
-  .about-text {
-    margin-right: 15px;
-  }
-}
-/* iphone 6, 6s, 7, 8 */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
   .about-grid-container {
-    display: unset;
-  }
-
-  .resume-link button {
-    width: 80px;
-    font-size: 16px;
-  }
-  .card-footer {
-    width: 350px;
-  }
-  .about-section-content {
-    margin-left: 12px;
-  }
-  .profile-badge {
-    margin-left: 0;
-    width: 350px;
-    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
   }
   .about-text {
-    font-size: 16px;
-    margin-right: 15px;
-    font-weight: 700;
+    margin-right: 100px;
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
     display: block;
   }
 }

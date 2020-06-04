@@ -3,7 +3,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
+  max-width: 1500px;
   height: 100vh;
   background-image: url(../images/pexels1.jpg);
   background-size: cover;
@@ -87,7 +88,7 @@ a {
   color: #000000;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media (min-width: 375px) {
   .grid-container {
     display: flex;
     justify-content: center;
@@ -105,42 +106,6 @@ a {
   }
 
   .parallax {
-    width: 100%;
-    height: 250px;
-    background-image: url(../images/coding.jpg);
-    background-size: contain;
-    background-position: unset;
-    object-fit: contain;
-  }
-  .my-name {
-    margin-bottom: 20px;
-    font-size: 34px;
-    color: white;
-  }
-  .position-name {
-    font-size: 18px;
-  }
-}
-/* iphone x max */
-@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
-  .grid-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .sub-titles {
-    display: unset;
-    font-size: 20px;
-    letter-spacing: 1px;
-  }
-
-  header {
-    display: none;
-  }
-
-  .parallax {
-    width: 100%;
     height: 250px;
     background-image: url(../images/coding.jpg);
     background-size: contain;
@@ -157,39 +122,69 @@ a {
   }
 }
 
-
-
-/* iphone 6, 6s, 7, 8 */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+@media (min-width: 475px) {
   .parallax {
-    width: 100%;
-    height: 250px;
-    background-image: url(../images/coding.jpg);
-    background-size: contain;
-    background-position: unset;
-    object-fit: contain;
+    height: 320px;
   }
+}
+@media (min-width: 600px) {
+  .parallax {
+    background-image: url(../images/pexels1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 500px;
+  }
+  .subt-titles {
+    display: unset;
+    flex-direction: row;
+    flex-flow: row nowrap;
+  }
+}
+
+@media (min-width: 775px) {
+  .sub-titles {
+    display: flex;
+  }
+}
+
+@media (min-width: 1000px) {
+  .parallax {
+    height: 789px;
+  }
+
+  header {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+  }
+ 
+
   .my-name {
     margin-bottom: 20px;
-    font-size: 34px;
-    color: white;
-  }
-  .position-name {
-    font-size: 18px;
-  }
-  header {
-    display: none;
+    font-size: 54px;
+    color: #fff;
   }
 
-  .grid-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .sub-titles {
-    display: unset;
-    font-size: 20px;
+  .position-name {
+    color: #fff;
+    font-weight: 800;
     letter-spacing: 1px;
+    font-size: 24px;
+  }
+
+  .subt-titles {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 1000px;
   }
 }

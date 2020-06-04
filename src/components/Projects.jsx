@@ -8,6 +8,7 @@ import Nba from "../images/nbadatabase.png";
 import Poke from "../images/pokeapptest.png";
 import Recipe from "../images/recipebook.png";
 
+
 export default function Projects() {
   return (
     <div>
@@ -47,6 +48,7 @@ export default function Projects() {
                     >
                       View
                     </a>
+                 
                   </button>
                 </div>
               </div>
@@ -237,9 +239,6 @@ export default function Projects() {
             </div>
           </div>
         </div>
-
-
-        
       </div>
     </div>
   );
