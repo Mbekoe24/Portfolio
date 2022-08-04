@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
-import Resume from "../resume-pdf/M.B May 2020 Resume.pdf";
+import Resume from "../resume-pdf/M.B Resume.pdf";
 export default function About() {
   return (
     <div>
@@ -18,19 +18,17 @@ export default function About() {
                 <div className="card-avatar">
                   <div className="card-content">
                     <div className="card-header">
-                      <h2 className="card-title">
-                        Michael Bekoe
-                      </h2>
+                      <h2 className="card-title">Michael Bekoe</h2>
                     </div>
                     <div className="card-subtitle">
-                      Jr. Front-End Engineer at General Assembly
+                      Software Engineer at Bank of the West
                     </div>
                     <div className="card-body">
                       <p className="card-body-text">
                         Bachelors in International Relations & <br />
-                        Global Economy at SUNY Geneseo
+                        Economics at SUNY Geneseo
                       </p>
-                      <p>New York, New York</p>
+                      <p>Phoenix, Arizona</p>
                     </div>
                   </div>
                 </div>
@@ -50,7 +48,9 @@ export default function About() {
             <div className="about-text">
               <p>
                 I am a multidisciplinary Software Engineer and Visual Designer
-                who loves designing vibrant websites and applications.
+                who loves designing vibrant websites and applications. Currently
+                I am an Software Engineer II at Bank of the West, in Phoenix
+                Arizona.
               </p>
               <p>
                 As a lifelong learner and passionate tech-enthusiast, I am
