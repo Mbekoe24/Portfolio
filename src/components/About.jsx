@@ -21,7 +21,8 @@ export default function About() {
                       <h2 className="card-title">Michael Bekoe</h2>
                     </div>
                     <div className="card-subtitle">
-                      Software Engineer at Bank of the West
+                      Software Engineer II @ <br />
+                      Bank of the West
                     </div>
                     <div className="card-body">
                       <p className="card-body-text">
