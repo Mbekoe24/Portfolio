@@ -1,38 +1,45 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  width: 100%;
   min-height: 100vh;
+}
+
+/* About + Projects side-by-side layout */
+.about-projects-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: linear-gradient(135deg, #0f766e 0%, #0d9488 50%, #14b8a6 100%);
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.about-column {
+  flex: 1;
+  padding: 1.5rem 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.projects-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.5rem;
+}
+
+/* Desktop: side by side - About left, Projects right */
+@media (min-width: 900px) {
+  .about-projects-section {
+    flex-direction: row;
+    align-items: stretch;
   }
-  to {
-    transform: rotate(360deg);
+
+  .about-column {
+    flex: 0 0 38%;
+    max-width: 480px;
+    padding: 2rem 1.5rem;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .projects-column {
+    flex: 1;
+    min-width: 0;
+    padding: 2rem 1.5rem;
   }
 }

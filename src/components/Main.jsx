@@ -1,17 +1,18 @@
-import React, { Component } from "react";
+import React from "react";
 import Header from "./Header";
 import About from "./About";
 import Projects from "./Projects";
 import Footer from "./Footer";
-export default class Main extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
+
+export default function Main() {
+  return (
+    <div>
+      <Header />
+      <div className="about-projects-section">
         <About />
         <Projects />
-        <Footer />
       </div>
-    );
-  }
+      <Footer />
+    </div>
+  );
 }

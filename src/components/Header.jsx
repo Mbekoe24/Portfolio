@@ -1,18 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 
-function header() {
+function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <div className="parallax">
       <div className="header-container">
-        <header>
-          <a className="about" href="#about">
+        <button
+          className="mobile-menu-btn"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label="Toggle menu"
+          aria-expanded={mobileMenuOpen}
+        >
+          <span className={mobileMenuOpen ? "open" : ""} />
+          <span className={mobileMenuOpen ? "open" : ""} />
+          <span className={mobileMenuOpen ? "open" : ""} />
+        </button>
+        <nav className={`header-nav ${mobileMenuOpen ? "open" : ""}`}>
+          <a href="#about" onClick={() => setMobileMenuOpen(false)}>
             About
           </a>
-          <a className="project" href="#projects">
+          <a href="#projects" onClick={() => setMobileMenuOpen(false)}>
             Projects
           </a>
-        </header>
+        </nav>
       </div>
       <div className="grid-container">
         <h1 className="my-name">Michael Bekoe</h1>
@@ -28,4 +40,4 @@ function header() {
   );
 }
 
-export default header;
+export default Header;

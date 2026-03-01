@@ -18,7 +18,7 @@ export default function Footer() {
                   <img className="github-icon" src={github} alt="github" />
                 </a>
                 <a href="https://www.linkedin.com/in/michaelbekoe/">
-                  <img className="linkedin-icon" src={linkedin} alt="github" />
+                  <img className="linkedin-icon" src={linkedin} alt="LinkedIn" />
                 </a>
               </div>
             </div>
@@ -33,7 +33,7 @@ export default function Footer() {
                 </span>
               </p>
             </div>
-            <p className="copyright"> © 2020 Michael Bekoe </p>
+            <p className="copyright">© 2026 Michael Bekoe</p>
           </section>
         </footer>
       </div>

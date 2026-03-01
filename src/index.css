@@ -1,13 +1,44 @@
+:root {
+  /* Teal & Warm color scheme */
+  --color-primary: #0f766e;
+  --color-primary-dark: #0d5c55;
+  --color-primary-light: #14b8a6;
+  --color-accent: #f59e0b;
+  --color-accent-hover: #d97706;
+  --color-surface: #f8fafc;
+  --color-surface-dark: #0f172a;
+  --color-text: #334155;
+  --color-text-muted: #64748b;
+  --color-border: rgba(255, 255, 255, 0.2);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }

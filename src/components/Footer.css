@@ -1,122 +1,132 @@
+/* Footer */
+.footer-container {
+  width: 100%;
+}
+
 footer {
-  height: 30vh;
-  background: #353839;
+  background: #3B3B1A;
+  padding: clamp(2rem, 5vw, 3rem) 1rem;
+  min-height: 200px;
 }
-.github-icon {
-  margin-right: -30px;
-  width: 50px;
-  height: 50px;
+
+.footer-section-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
-.linkedin-icon {
-  width: 50px;
-  height: 50px;
-}
-.heart {
-  width: 20px;
-  height: 20px;
-  margin-left: 10px;
-}
-.netlify-icon {
-  width: 20px;
-  height: 20px;
-}
-.copyright {
-  color: #fff;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
-.react-icon {
-  width: 20px;
-  height: 20px;
-}
-.caption-span {
-  margin-left: 10px;
-}
-.footer-caption {
-  display: flex;
-  justify-content: center;
-  letter-spacing: 2px;
-  font-size: 16px;
-  color: #fff;
-  font-weight: 700;
-  font-family: Poppins;
-}
+
 .image-row {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
-  flex-flow: row nowrap;
+  padding: 1rem 0;
+}
+
+.social-medias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.social-medias a {
+  transition: transform 0.2s;
+}
+
+.social-medias a:hover {
+  transform: scale(1.1);
+}
+
+.github-icon,
+.linkedin-icon {
+  width: clamp(40px, 10vw, 50px);
+  height: clamp(40px, 10vw, 50px);
+}
+
+.footer-caption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem 0.5rem;
+  padding: 1rem 0.5rem;
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.8rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: #f0fdfa;
+  letter-spacing: 0.5px;
+}
+
+.footer-caption p {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem 0.5rem;
+}
+
+.heart,
+.react-icon,
+.netlify-icon {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .heart {
-  display: inline;
+  width: 18px;
+  height: 18px;
 }
-.react-icon {
-  display: inline;
-}
+
+.react-icon,
 .netlify-icon {
-  display: inline;
-}
-p {
-  margin-bottom: 0px;
+  width: 18px;
+  height: 18px;
 }
 
-@media (min-width: 375px) {
+.caption-span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.copyright {
+  color: rgba(240, 253, 250, 0.9);
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+/* Mobile - compact layout */
+@media (max-width: 479px) {
   footer {
-    height: auto;
+    padding: 1.5rem 0.75rem;
   }
-  .image-row {
-    padding-top: 0px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .footer-caption {
-    letter-spacing: 0.5px;
-    display: unset;
-  }
-  .github-icon {
-    margin-right: unset;
-  }
-  .linkedin-icon {
-    width: 60px;
-    height: 60px;
-  }
+
   .social-medias {
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    gap: 1rem;
   }
-  .heart {
-    display: inline;
-  }
-  .react-icon {
-    display: inline;
-  }
-  .netlify-icon {
-    display: inline;
-  }
-  p {
-    margin-bottom: 0px;
+
+  .footer-caption {
+    font-size: 0.85rem;
   }
 }
 
-@media (min-width: 1000px) {
-  .image-row {
-    padding-top: 20px;
+/* Desktop */
+@media (min-width: 768px) {
+  footer {
+    padding: 2.5rem 2rem;
   }
+
   .footer-caption {
-    letter-spacing: 2px;
-    font-size: 16px;
-    color: #fff;
-    font-weight: 700;
-    font-family: Poppins;
+    font-size: 1rem;
+    letter-spacing: 1px;
   }
+
   .copyright {
-    padding-bottom: 20px;
+    font-size: 1rem;
+    padding-top: 1.5rem;
   }
 }
