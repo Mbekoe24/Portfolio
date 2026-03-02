@@ -1,8 +1,9 @@
 /* Projects Section - Right Column */
-.projects-column { 
-  background: #AEC8A4; 
-  
-  .section-title {
+.projects-column {
+  background: #AEC8A4;
+}
+
+.projects-column .section-title {
   padding: 0 0 1rem;
   margin: 0;
   font-size: clamp(1.5rem, 4vw, 2rem);
@@ -10,8 +11,9 @@
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   color: #f0fdfa;
+  text-align: center;
 }
-}
+
 .projects-wrapper {
   width: 100%;
   overflow: hidden;
@@ -146,7 +148,6 @@
   transform: translateY(-1px);
 }
 
-/* Carousel Buttons */
 .carousel-btn {
   flex-shrink: 0;
   width: 44px;
@@ -174,7 +175,6 @@
   transform: scale(0.95);
 }
 
-/* Carousel Dots */
 .carousel-dots {
   display: flex;
   justify-content: center;
@@ -203,7 +203,6 @@
   transform: scale(1.2);
 }
 
-/* Responsive - Small phones */
 @media (max-width: 374px) {
   .carousel-section {
     padding: 1rem 0.25rem 0.5rem;
@@ -220,9 +219,8 @@
     padding: 1rem;
   }
 
-  .project-title  {
+  .project-title {
     font-size: 1.1rem;
-
   }
 
   .project-details {
@@ -231,7 +229,6 @@
   }
 }
 
-/* Responsive - Tablets and up */
 @media (min-width: 768px) {
   .carousel-track-container {
     max-width: 480px;
@@ -241,9 +238,8 @@
     padding: 2rem;
   }
 
-  .project-title  {
+  .project-title {
     font-size: 1.5rem;
-
   }
 
   .project-details {
@@ -251,7 +247,6 @@
   }
 }
 
-/* Responsive - Desktop */
 @media (min-width: 1024px) {
   .carousel-section {
     padding: 1.5rem 1rem 0.5rem;

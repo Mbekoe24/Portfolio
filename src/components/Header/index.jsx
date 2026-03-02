@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 
-function Header() {
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -39,5 +39,3 @@ function Header() {
     </div>
   );
 }
-
-export default Header;

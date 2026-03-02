@@ -7,7 +7,6 @@
   width: 100%;
   min-height: 100vh;
   max-height: 100vh;
-  /* background-image: url(../images/pexels2.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -19,7 +18,6 @@
   content: "";
   position: absolute;
   inset: 0;
-  /* background: linear-gradient(135deg, rgba(15, 118, 110, 0.85) 0%, rgba(13, 148, 136, 0.75) 100%); */
   z-index: 0;
 }
 
@@ -38,8 +36,6 @@
   transition: background 0.3s;
 }
 
-
-/* Mobile menu button */
 .mobile-menu-btn {
   display: flex;
   flex-direction: column;
@@ -133,7 +129,6 @@
   margin: 0;
 }
 
-/* Mobile - hamburger menu */
 @media (max-width: 599px) {
   .mobile-menu-btn {
     display: flex;
@@ -168,7 +163,7 @@
   .parallax {
     min-height: 50vh;
     max-height: 60vh;
-    background-image: url(../images/coding.jpg);
+    background-image: url(../../images/coding.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -187,7 +182,6 @@
   }
 }
 
-/* Tablet - show nav inline, hide hamburger */
 @media (min-width: 600px) {
   .mobile-menu-btn {
     display: none;
@@ -203,7 +197,7 @@
 
   .parallax {
     min-height: 70vh;
-    background-image: url(../images/desk1.avif);
+    background-image: url(../../images/desk1.avif);
   }
 
   .my-name {
@@ -211,7 +205,6 @@
   }
 }
 
-/* Desktop */
 @media (min-width: 1024px) {
   .parallax {
     min-height: 100vh;

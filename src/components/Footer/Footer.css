@@ -99,7 +99,6 @@ footer {
   padding-top: 1rem;
 }
 
-/* Mobile - compact layout */
 @media (max-width: 479px) {
   footer {
     padding: 1.5rem 0.75rem;
@@ -114,7 +113,6 @@ footer {
   }
 }
 
-/* Desktop */
 @media (min-width: 768px) {
   footer {
     padding: 2.5rem 2rem;

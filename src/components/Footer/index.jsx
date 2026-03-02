@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
-import github from "../images/git.png";
-import linkedin from "../images/link.png";
-import heart from "../images/heart.png";
-import react from "../images/logo512.png";
-import netlify from "../images/netlify.png";
+import github from "../../images/git.png";
+import linkedin from "../../images/link.png";
+import heart from "../../images/heart.png";
+import react from "../../images/logo512.png";
+import netlify from "../../images/netlify.png";
 
 export default function Footer() {
   return (
