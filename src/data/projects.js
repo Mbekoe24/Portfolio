@@ -24,7 +24,7 @@ export const PROJECTS = [
     image: PokeQuiz,
     imageAlt: "Poké Quiz",
     description:
-      "A modern single-page Pokémon knowledge quiz application and a complete revamp of my original 2020 Poké App project, reflecting the evolution of my coding skills and overall technical comprehension. The app challenges users to identify species from silhouettes, full artwork, types, and cries, with customizable generations and difficulty levels. It includes high score tracking and a shareable, replayable run feature via URL. I leveraged AI agents such as Claude and Cursor to refactor legacy logic and implement new functionality. Built with React, TypeScript, Vite, and Tailwind CSS",
+      "A modern single-page Pokémon knowledge quiz application and a complete revamp of my original 2020 Poké App project, reflecting the evolution of my coding skills and overall technical comprehension. The app challenges users to identify species from silhouettes, full artwork, types, and cries, with customizable generations and difficulty levels. It includes high score tracking and a shareable, replayable run feature via URL. I leveraged AI agents such as Claude and Cursor to refactor legacy logic and implement new functionality.",
     tech: ["Typescript", "React", "Vite", "ClaudeAI"],
     link: "https://poke-quiz.surge.sh/",
   },
